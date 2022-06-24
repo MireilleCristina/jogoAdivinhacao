@@ -11,11 +11,11 @@ public class jogoAdivinhacao {
 	Scanner scan = new Scanner(System.in);
 	Random gerador =new Random();/*objeto tipo random chamado gerador,gerar numero aleatorio*/
 	
-	int numero1;		
+		
 	int opcao;
 	int escolha_computador;
 	int escolha_usuario;
-	int numero;
+	
 	
 	show.println("Olá,Qual o seu nome?");
 	String nome = scan.nextLine();
